@@ -1,0 +1,17 @@
+﻿Adding records to the database through PHP
+
+Make a form with two text fields: “Time Zone” and “Offset”.
+Get the data from the form after it is submitted.
+Make the data safe, check it for correctness.
+Add a new record with data from the 3rd item to the time zone table.
+Using phpMyAdmin, find out the syntax for modifying and deleting entries.
+Create a separate script where add an arbitrary record to the table with time zones.
+Change the offset and title field values ​​for the added record. Check this.
+Delete this entry. Make sure the record has really disappeared from the table.
+Note: We will definitely consider updating and deleting entries. But I would really like for you to learn how to get new knowledge yourself. Therefore, try to master this material yourself.
+
+Fetching records from a database through PHP
+
+Get an array of all time zones in the table.
+Print their title in the form of the user in the form of a list.
+After the user selects a list item and submits the form, it is necessary to pull the appropriate offset for the given time zone from the table and display it to the user in the format: "Offset from Greenwich: $ offset seconds".
